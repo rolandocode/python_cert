@@ -4,7 +4,7 @@ studentCount = len(students);
 first_student = students[0];
 last_student = students[-1];
 
-months = ("January", "February", "March")
+months = ("January", "February", "March", "April")
 
 first_mont = months[0];
 
