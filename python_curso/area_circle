@@ -1,0 +1,5 @@
+import math
+
+radious =  float(input("Type radious "))
+area = math.pi * (radious ** 2)
+print ("area is ", round(area,2))
