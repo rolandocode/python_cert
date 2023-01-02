@@ -1,4 +1,10 @@
 import time as t
+
+def addDays(days):
+    current_time = t.time()
+    delivery_time = current_time + (86400 *days)
+    return delivery_time
+
 print(t.localtime())
 
 time_now = t.localtime()
@@ -12,4 +18,8 @@ current_time = t.time()
 delivery_time = current_time + (86400 *7)
 
 delivery_date = t.localtime(delivery_time)
-print (delivery_date)
+print ("In 'main' delivery date: ", delivery_date)
+
+functionDeliver_date = t.localtime(addDays(7))
+
+print ("Function delivery time: ", functionDeliver_date)
